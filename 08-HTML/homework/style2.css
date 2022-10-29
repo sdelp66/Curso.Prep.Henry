@@ -1,6 +1,13 @@
 
 body{
     background-image: url("https://i0.wp.com/www.eclixxo.com/wp-content/uploads/2017/05/codigo-css-3.jpg?resize=800%2C333&ssl=1") ;
+    
+    display: -webkit-flex;
+    display:         flex;
+    -webkit-align-items: center;
+            align-items: center;
+    -webkit-justify-content: center;
+            justify-content: center; 
 }
 h1{
     color:green;
@@ -8,10 +15,7 @@ h1{
 img{
     width: 400;
 }
-div{
-    text-align:center;
-    margin: 0px auto;
-}
+
 #thirdDiv{
     height: 600;
     width: 500;
@@ -20,8 +24,6 @@ div{
     border: 10px;
     border-color: blue;
     border-style: dashed;
-    text-align:center;
-    margin: 0px auto;
 }
 #spanId{
     font-size: 18px;
